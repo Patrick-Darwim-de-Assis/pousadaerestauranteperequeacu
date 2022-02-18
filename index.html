@@ -387,10 +387,10 @@ http://www.templatemo.com/tm-507-victory
                     <div class="col-md-12">
                         <fieldset>
                             <h4>
-                            87070015 Maringá, PR
+                            Avenida Governador Abreu Sodré, 567 - Ubatuba, SP
                             </h4>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.389226313198!2d-51.969521535025045!3d-23.41030293475807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd6ee067821f9%3A0x9818950e3512add2!2sJardim%20Montreal%2C%20Maring%C3%A1%20-%20PR%2C%2087070-015!5e0!3m2!1spt-BR!2sbr!4v1643386500905!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14644.159986587296!2d-45.064153!3d-23.4229223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8d1997ff642aa61!2zUG91c2FkYSBQZXJlcXXDqiBBw6fDug!5e0!3m2!1spt-BR!2sbr!4v1645219037919!5m2!1spt-BR!2sbr"  width="99%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             <!--<input name="email" type="text" class="form-control" id="email" placeholder="Enter your email here..." required>-->
                         </fieldset>
                     </div>
@@ -413,7 +413,7 @@ http://www.templatemo.com/tm-507-victory
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <p>Copyright &copy; 2022 Restaurante e Pousada Pereque Açu</p>
+                    <p>Copyright &copy; Restaurante e Pousada Perequê Açu</p>
                 </div>
                 <div class="col-md-4">
                     <ul class="social-icons">
@@ -465,21 +465,21 @@ http://www.templatemo.com/tm-507-victory
 
         //função para enviar o formulário para o e-mail do restaurante
        /* $('#submit').click(function(){
-        	alert("Passei por aqui");
-	    	$.ajax({
-			  url: "https://formspree.io/f/xwkwwdwg",
-			  method: "POST",
-			  dataType: "json",
-			  data: {
-			    //email: "a.visitor@email.com",
-			    //message: "Hello!"
-			    quantidadeDePessoas: getElementById("persons").value;
-				numeroDeTelefone: getElementById("phone").value;
-				nomeDaPessoa: getElementById("name").value;
-				horaDeChegada: getElementById("hour").value;
-				diaDeChegada: getElementById("day").value;
-			  }
-			});       	  
+            alert("Passei por aqui");
+            $.ajax({
+              url: "https://formspree.io/f/xwkwwdwg",
+              method: "POST",
+              dataType: "json",
+              data: {
+                //email: "a.visitor@email.com",
+                //message: "Hello!"
+                quantidadeDePessoas: getElementById("persons").value;
+                numeroDeTelefone: getElementById("phone").value;
+                nomeDaPessoa: getElementById("name").value;
+                horaDeChegada: getElementById("hour").value;
+                diaDeChegada: getElementById("day").value;
+              }
+            });           
         });*/
     });
     // scroll function
@@ -501,23 +501,23 @@ http://www.templatemo.com/tm-507-victory
 
 
     function sendContactInfoToFormSpree(){
-    	$.ajax({
-		  url: "https://formspree.io/f/xwkwwdwg",
-		  method: "POST",
-		  dataType: "json",
-		  data: {
-		    //email: "a.visitor@email.com",
-		    //message: "Hello!"
-		    quantidadeDePessoas: getElementById("persons").value;
-			numeroDeTelefone: getElementById("phone").value;
-			nomeDaPessoa: getElementById("name").value;
-			horaDeChegada: getElementById("hour").value;
-			diaDeChegada: getElementById("day").value;
-			success: function(){
-            	alert("Formulário enviado com sucesso");
-        	}
-		  }
-		});
+        $.ajax({
+          url: "https://formspree.io/f/xwkwwdwg",
+          method: "POST",
+          dataType: "json",
+          data: {
+            //email: "a.visitor@email.com",
+            //message: "Hello!"
+            quantidadeDePessoas: getElementById("persons").value;
+            numeroDeTelefone: getElementById("phone").value;
+            nomeDaPessoa: getElementById("name").value;
+            horaDeChegada: getElementById("hour").value;
+            diaDeChegada: getElementById("day").value;
+            success: function(){
+                alert("Formulário enviado com sucesso");
+            }
+          }
+        });
     }
     </script>
 
