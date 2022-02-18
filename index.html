@@ -502,7 +502,7 @@ http://www.templatemo.com/tm-507-victory
 
     function sendContactInfoToFormSpree(){
         $.ajax({
-          url: "https://formspree.io/f/xwkwwdwg",
+          url: "https://formspree.io/f",
           method: "POST",
           dataType: "json",
           data: {
@@ -514,7 +514,7 @@ http://www.templatemo.com/tm-507-victory
             horaDeChegada: getElementById("hour").value;
             diaDeChegada: getElementById("day").value;
             success: function(){
-                alert("Formulário enviado com sucesso");
+                alert("Formulário não enviado. Favor nos contactar por telefone");
             }
           }
         });
